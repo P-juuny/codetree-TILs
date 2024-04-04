@@ -10,18 +10,16 @@ int main() {
     cout << a << " ";
 
     for(int i = a; i < b; i++){
-        if(a < b){
-            if(a % 2 == 0){
-                a += 3;
+        if(a % 2 == 0){
+            a += 3;
+            if(a <= b)
                 cout << a << " ";
-            }
-            else{
-                a *= 2;
-                cout << a << " ";
-            }
         }
-        else
-            break;
+        else{
+            a *= 2;
+            if(a <= b)
+                cout << a << " ";
+        }
     }
 
     return 0;
