@@ -9,17 +9,20 @@ int main() {
 
     cout << a << " ";
 
-    
-    do{
-        if(a % 2 == 0){
-            a += 3;
-            cout << a << " ";
+    for(int i = a; i < b; i++){
+        if(a < b){
+            if(a % 2 == 0){
+                a += 3;
+                cout << a << " ";
+            }
+            else{
+                a *= 2;
+                cout << a << " ";
+            }
         }
-        else{
-            a *= 2;
-            cout << a << " ";
-        }
-    }while(a < b);
+        else
+            break;
+    }
 
     return 0;
 }
