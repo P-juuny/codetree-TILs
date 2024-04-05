@@ -12,7 +12,7 @@ int main() {
     if(price >= 3000){
         cout << "book";
     }
-    if(price == 0){
+    else if(price == 0){
         cout << "no";
     }
     else{
