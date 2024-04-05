@@ -11,7 +11,7 @@ int main() {
     int temp_1;
 
     temp = a;
-    temp_ 1 = b;
+    temp_1 = b;
     a = c;
     b = temp;
     c = temp_1;
