@@ -12,11 +12,11 @@ int main() {
     if(price >= 3000){
         cout << "book";
     }
-    else if(price == 0){
-        cout << "no";
+    else if(price < 3000){
+        cout << "mask";
     }
     else{
-        cout << "mask";
+        cout << "no";
     }
     // 여기에 코드를 작성해주세요.
     return 0;
