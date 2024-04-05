@@ -7,28 +7,28 @@ int main() {
     int a, b, c, tmp;
 
     cin >> a >> b >> c;
-     
-    if(a > c){
-        if(b < a){
-            tmp = b;
+
+    if(a < b){
+        if(b < c){
+            cout << b;
         }
-        else{
-            tmp = a;
+        if(b > c){
+            cout << c;
         }
     }
     else{
-        if(b < a){
-            tmp = a;
+        if(b < c){
+            if(a > c){
+                cout << c;
+            }
+            else{
+                cout << a;
+            }
         }
         else{
-            tmp = b;
+            cout << b;
         }
     }
-
-
-    cout << tmp;
-    
-
     
     return 0;
 }
