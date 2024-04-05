@@ -5,8 +5,8 @@ using namespace std;
 int main() {
 
     int a, b;
-    float add = 0;
-    float sub = 0;
+    int add = 0;
+    int sub = 0;
     float div = 0;
 
     cin >> a >> b;
