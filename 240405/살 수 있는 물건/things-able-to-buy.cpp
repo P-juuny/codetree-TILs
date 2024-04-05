@@ -15,7 +15,7 @@ int main() {
     else if(price < 3000){
         cout << "mask";
     }
-    else{
+    else if{
         cout << "no";
     }
     // 여기에 코드를 작성해주세요.
