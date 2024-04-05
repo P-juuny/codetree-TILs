@@ -11,10 +11,10 @@ int main() {
 
     if(price >= 3000){
         cout << "book";
-    } else if(price > 0){
+    } else if(price >= 1000){
         cout << "mask";
     } else
         cout <<"no";
-        
+
     return 0;
 }
