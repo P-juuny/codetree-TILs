@@ -7,14 +7,24 @@ int main() {
     int a, b, c, tmp;
 
     cin >> a >> b >> c;
-
-    tmp = a;
-
-    if(tmp < b){
-        tmp = b;
-        if(tmp > c)
-            tmp = c;
+     
+    if(a > c){
+        if(b < a){
+            tmp = b;
+        }
+        else{
+            tmp = a;
+        }
     }
+    else{
+        if(b < a){
+            tmp = a;
+        }
+        else{
+            tmp = b;
+        }
+    }
+
 
     cout << tmp;
     
