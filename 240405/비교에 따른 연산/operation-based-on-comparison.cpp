@@ -5,13 +5,15 @@ using namespace std;
 int main() {
 
     int a, b;
+    int div = 0;
+
     cin >> a >> b;
 
     if(a > b){
         cout << a * b;
     }
     else{
-        cout << b / a - b % a;
+        cout << b / a;
     }
     // 여기에 코드를 작성해주세요.
     return 0;
