@@ -5,7 +5,6 @@ using namespace std;
 int main() {
 
     int a, b;
-    int div = 0;
 
     cin >> a >> b;
 
