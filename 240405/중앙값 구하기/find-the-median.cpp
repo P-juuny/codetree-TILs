@@ -1,6 +1,24 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
-    // 여기에 코드를 작성해주세요.
+
+    int a, b, c, tmp;
+
+    cin >> a >> b >> c;
+
+    tmp = a;
+
+    if(tmp < b){
+        tmp = b;
+        if(tmp > c)
+            tmp = c;
+    }
+
+    cout << tmp;
+    
+
+    
     return 0;
 }
